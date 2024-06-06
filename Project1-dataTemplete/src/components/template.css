@@ -1,0 +1,117 @@
+.main-container {
+  padding: 16px;
+  overflow-x: hidden;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: #668e46;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.profile-summary {
+  margin-top: 10px;
+  font-size: 10px;
+  line-height: 1.3rem;
+}
+
+.designation {
+  color: #668e46;
+  font-weight: medium;
+  flex-grow: 1;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #668e46;
+}
+
+.section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* section headings */
+.section-heading {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #668e46;
+  text-transform: uppercase;
+}
+
+
+/* Skills */
+.skills-table {
+  /* width: 100%; */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 2px solid black;
+  padding: 12px;
+}
+
+.skills-table th {
+  font-weight: bold;
+}
+
+/* experience */
+.experience-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin-top: 20px;
+
+}
+
+.experience-table th,
+.experience-table td {
+  border: 2px solid black;
+  padding: 12px;
+}
+
+/* education */
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin-top: 20px;
+
+}
+
+.education-table th,
+.education-table td {
+  border: 2px solid black;
+  padding: 12px;
+}
+
+/* certifications table */
+.certifications-table {
+  /* width: 100%; */
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.certifications-table th,
+.certifications-table td {
+  border: 2px solid black;
+  padding: 12px;
+}
