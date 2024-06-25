@@ -1,11 +1,12 @@
-import './App.css'
-import Template from './components/Template'
+import Template from "./components/Template1/Template"
+import Template2 from "./components/Template2/Template2"
 
 function App() {
 
   return (
     <>
-      <Template/>
+      {/* <Template/> */}
+      <Template2/>
     </>
   )
 }

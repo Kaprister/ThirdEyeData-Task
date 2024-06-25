@@ -1,6 +1,6 @@
 import React from 'react';
-import { candidateResumeData } from './data';
-import './template.css'; // Import your custom CSS file
+import { candidateResumeData } from '../data';
+import './template.css';
 
 function Template() {
   return (

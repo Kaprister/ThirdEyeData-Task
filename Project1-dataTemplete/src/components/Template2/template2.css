@@ -1,0 +1,157 @@
+.dot-point {
+    position: relative;
+    padding-left: 1.2em;
+}
+
+.dot-point::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.6em;
+    color: black;
+}
+
+.main-container{
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+}
+
+hr {
+    border: 1px solid #668e46 !important;
+    margin: 0px !important;
+    opacity: 1 !important;
+  }
+
+/* .header {
+    display: flex;
+    flex-direction: column;
+} */
+
+.header-logo{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+
+.header-content {
+    display: flex;
+}
+
+  .header-left {
+    flex: 1;
+  }
+
+  .header-center {
+    flex: 3;
+    text-align: center;
+  }
+
+  .header-right {
+    flex: 1;
+  }
+
+  .template-name {
+    font-size: 14px;
+    font-family: "Calibri";
+    font-weight: 800;
+    color: #668e46;
+    margin-bottom: 10px;
+    margin-top: 0.6rem;
+  }
+
+
+.designation-temp2{
+    color: #668e46;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* section headings */
+.section-heading {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #668e46;
+    text-transform: uppercase;
+}
+
+.skill-container{
+    margin-top: 10px;
+}
+.skill-list {
+    margin-left: 25px;
+}
+
+.skill-data{
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.exp-section {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.exp-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.expe-heading-comp{
+    font-weight: bold;
+    color: #668e46;
+}
+
+.experience-heading{
+    font-weight: bold;
+    color: #668e46;
+    text-transform: uppercase;
+}
+
+.expe-skill-data{
+    font-size: 11px;
+}
+.exp-desc-data{
+    font-weight: medium;
+    font-size: 11px;
+    line-height: 25px
+}
+
+.desc-head{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.edu-section{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.edu-data{
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.certi-section{
+    margin-top: 10px;
+    /* padding-bottom: 0.4px; */
+    margin-left: 10px;
+}
+
+.certi-data{
+    font-size: 11px;
+}
